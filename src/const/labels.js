@@ -1,4 +1,5 @@
-export const LABEL = {
+/* eslint-disable no-undef */
+const LABEL = {
   delivery_route: 'delivery_route',
   deliveries: 'deliveries',
   pickups: 'pickups',
@@ -667,3 +668,4 @@ export const LABEL = {
   barcode_template: 'barcode_template',
   system_code: 'system_code'
 }
+module.exports = LABEL
