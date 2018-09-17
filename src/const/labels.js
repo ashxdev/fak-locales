@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 export const LABEL = {
   delivery_route: 'delivery_route',
   deliveries: 'deliveries',
