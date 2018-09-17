@@ -1,0 +1,32 @@
+{
+  "name": "fak-locales",
+  "version": "1.0.0",
+  "description": "fak2 locales",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashxdev/fak-locales.git"
+  },
+  "author": "Adnrii Shapovalov",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "prettier": "1.12.0"
+  },
+  "prettier": {
+    "excludeFiles": [
+      "node_modules"
+    ],
+    "options": {
+      "print-width": 100,
+      "single-quote": true,
+      "semi": false,
+      "write": true
+    }
+  },
+  "homepage": "https://github.com/ashxdev/fak-locales"
+}
