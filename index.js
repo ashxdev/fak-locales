@@ -1,9 +1,9 @@
-const LABELS = require('./src/const/labels')
-const EN = require('./src/locales/en')
-const NL = require('./src/locales/nl')
+const LABEL = require('./src/const/labels')
+const en = require('./src/locales/en')
+const nl = require('./src/locales/nl')
 
 module.exports = {
-  LABELS,
-  EN,
-  NL
+  LABEL,
+  en,
+  nl
 }
